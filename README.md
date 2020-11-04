@@ -1,2 +1,2 @@
-# -TryHackMe
-online platform for learning and practice cyber security
+# TryHackMe
+This Repo conatins Scripts used in THM Rooms.
