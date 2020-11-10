@@ -98,6 +98,37 @@ short word list
 ```
 gobuster dir -u http://ip:port -w /usr/share/wordlists/dirb/common.txt -x php,html,txt -t 30 
 ```
+------------------
+## Other Wordlists
+------------------
+root@kali:/usr/share/wordlists/dirb# ls
+big.txt     common.txt   extensions_common.txt  mutations_common.txt  small.txt    stress
+catala.txt  euskera.txt  indexes.txt            others                spanish.txt  vulns
+
+root@kali:/usr/share/wordlists/dirbuster# ls
+apache-user-enum-1.0.txt  directories.jbrofuzz    directory-list-2.3-medium.txt  directory-list-lowercase-2.3-medium.txt
+apache-user-enum-2.0.txt  directory-list-1.0.txt  directory-list-2.3-small.txt   directory-list-lowercase-2.3-small.txt
+
+root@kali:/usr/share/wordlists/metasploit# ls
+adobe_top100_pass.txt                     http_default_pass.txt            namelist.txt                   sensitive_files_win.txt
+av_hips_executables.txt                   http_default_userpass.txt        oracle_default_hashes.txt      sid.txt
+av-update-urls.txt                        http_default_users.txt           oracle_default_passwords.csv   snmp_default_pass.txt
+burnett_top_1024.txt                      http_owa_common.txt              oracle_default_userpass.txt    telnet_cdata_ftth_backdoor_userpass.txt
+burnett_top_500.txt                       idrac_default_pass.txt           password.lst                   tftp.txt
+can_flood_frames.txt                      idrac_default_user.txt           piata_ssh_userpass.txt         tomcat_mgr_default_pass.txt
+cms400net_default_userpass.txt            ipmi_passwords.txt               postgres_default_pass.txt      tomcat_mgr_default_userpass.txt
+common_roots.txt                          ipmi_users.txt                   postgres_default_userpass.txt  tomcat_mgr_default_users.txt
+dangerzone_a.txt                          joomla.txt                       postgres_default_user.txt      unix_passwords.txt
+dangerzone_b.txt                          keyboard-patterns.txt            root_userpass.txt              unix_users.txt
+db2_default_pass.txt                      lync_subdomains.txt              routers_userpass.txt           vnc_passwords.txt
+db2_default_userpass.txt                  malicious_urls.txt               rpc_names.txt                  vxworks_collide_20.txt
+db2_default_user.txt                      mirai_pass.txt                   rservices_from_users.txt       vxworks_common_20.txt
+default_pass_for_services_unhash.txt      mirai_user_pass.txt              sap_common.txt                 wp-plugins.txt
+default_userpass_for_services_unhash.txt  mirai_user.txt                   sap_default.txt                wp-themes.txt
+default_users_for_services_unhash.txt     multi_vendor_cctv_dvr_pass.txt   sap_icm_paths.txt
+dlink_telnet_backdoor_userpass.txt        multi_vendor_cctv_dvr_users.txt  scada_default_userpass.txt
+hci_oracle_passwords.csv                  named_pipes.txt                  sensitive_files.txt
+
 
 ## crack passwords
 
