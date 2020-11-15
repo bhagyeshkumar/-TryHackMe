@@ -270,6 +270,11 @@ pass the hash
 ```
 evil-winrm -i 10.10.4.164 -u Administrator -H e4876a80a723612986d7609aa5ebc12b
 ```
+
+PowerView-3.0
+```
+https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993
+```
 ## Assembly
 
 start debug mode 
@@ -302,10 +307,7 @@ print register values
 dr <register>
 ```
 
-PowerView-3.0
-```
-https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993
-```
+
 
 ## CheckList
 
