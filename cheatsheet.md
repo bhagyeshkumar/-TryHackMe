@@ -302,6 +302,11 @@ print register values
 dr <register>
 ```
 
+PowerView-3.0
+```
+PowerView-3.0-tricks.ps1(https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993)
+```
+
 ## CheckList
 
 
