@@ -20,7 +20,12 @@ wpscan --url blog.thm --enumerate u
 ```
 sudo masscan -e tun0 -p1-65535,U:1-65535 10.10.1.109 --rate=1000 (quick open port scan)
 
-## FTP
+## copy files
+
+use SSH to copy files onto box
+```
+scp Administrator@10.10.8.100:"c:/Users/Administrator/Downloads/FILE_NAME" /root/Desktop
+```
 
 use FTP to copy files onto box
 ```
